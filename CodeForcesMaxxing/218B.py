@@ -16,6 +16,7 @@ for i in range(p):
 
 
 for i in range(p):
+    y=0
     d=sorted(d)
     while d[y]==0:
         y+=1
