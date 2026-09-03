@@ -17,9 +17,9 @@ for i in range(p):
 
 for i in range(p):
     d=sorted(d)
-    while l[y]==0:
+    while d[y]==0:
         y+=1
-    mini+=l[y]
-    l[y]=l[y]-1
+    mini+=d[y]
+    d[y]=d[y]-1
 
 print(maxi,mini)
