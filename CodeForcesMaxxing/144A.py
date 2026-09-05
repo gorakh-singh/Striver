@@ -9,7 +9,6 @@ def mini(l,ind):
 
 n=int(input())
 l=list(map(int,input().split()))
-print(min(range(len(l)), key=lambda i: (l[i], -i)))
 
 while min(range(len(l)), key=lambda i: (l[i], -i))!=(n-1) or l.index(max(l))!=0:
     if min(range(len(l)), key=lambda i: (l[i], -i))!=(n-1):
@@ -22,4 +21,3 @@ while min(range(len(l)), key=lambda i: (l[i], -i))!=(n-1) or l.index(max(l))!=0:
 
 
 print(c)
-print(l)
