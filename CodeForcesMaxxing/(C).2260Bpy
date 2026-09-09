@@ -1,0 +1,10 @@
+n=int(input())
+for i in range(n):
+    x,y,k=map(int,input().split())
+    d=y-x
+    y=0
+    m=0
+    while m<k and (x+m)<=d:
+        y+=d%(x+m)
+        m+=1
+    print(y)
