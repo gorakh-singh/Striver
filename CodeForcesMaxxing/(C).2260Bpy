@@ -7,4 +7,7 @@ for i in range(n):
     while m<k and (x+m)<=d:
         y+=d%(x+m)
         m+=1
+    if m<k:
+        rm=k-m
+        y+=rm*d
     print(y)
